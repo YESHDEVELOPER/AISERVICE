@@ -1,0 +1,56 @@
+.nusterAi {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 110px;
+  flex-shrink: 0;
+}
+.ourService {
+  margin: 0;
+}
+.ourServiceLetsContainer {
+  flex: 1;
+  position: relative;
+  line-height: 31px;
+  flex-shrink: 0;
+}
+.ourServiceLetsTryPricingWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-8xs);
+  font-size: var(--font-size-base);
+  font-family: var(--body-text);
+}
+.footer,
+.nusterAiParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.nusterAiParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.footer {
+  width: 155px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-18xl) var(--padding-12xl) 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-white);
+  font-family: var(--sub-header);
+}
+@media screen and (max-width: 450px) {
+  .nusterAi {
+    font-size: var(--body-text-size);
+  }
+}

@@ -1,0 +1,150 @@
+.nusterAi {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: inherit;
+  white-space: nowrap;
+}
+.nusterAiWrapper {
+  width: 116px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.letsTry,
+.ourService,
+.pricing {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: inherit;
+  display: inline-block;
+}
+.ourService {
+  left: 0;
+  min-width: 111px;
+  white-space: nowrap;
+}
+.letsTry,
+.pricing {
+  left: 132px;
+  min-width: 69px;
+}
+.letsTry {
+  left: 222px;
+  min-width: 81px;
+  white-space: nowrap;
+}
+.ourServiceParent {
+  margin: 0;
+  align-self: stretch;
+  height: 28px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+  font-family: var(--sub-header);
+}
+.frameWrapper {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.frameChild {
+  width: 17px;
+  height: 17px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-cornflowerblue-100);
+}
+.signupInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-7xs-5) 0 0;
+}
+.signUp {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--sub-header);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 62px;
+  white-space: nowrap;
+}
+.desktop2Inner,
+.frameGroup,
+.frameParent,
+.signup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.signup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-6xl);
+  background-color: var(--color-midnightblue-100);
+  border-radius: var(--br-41xl);
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}
+.desktop2Inner,
+.frameGroup,
+.frameParent {
+  max-width: 100%;
+}
+.frameGroup {
+  width: 487px;
+  justify-content: flex-start;
+  gap: var(--gap-22xl);
+}
+.desktop2Inner,
+.frameParent {
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 1053px;
+  justify-content: space-between;
+  padding: 0 0 0 var(--padding-xl);
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--sub-header-size);
+  color: var(--color-white);
+  font-family: var(--sub-header);
+}
+.desktop2Inner {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  width: 1221px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-472xl);
+}
+@media screen and (max-width: 800px) {
+  .frameWrapper {
+    display: none;
+  }
+  .frameGroup {
+    width: 184px;
+  }
+}

@@ -1,0 +1,203 @@
+.topMarket {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.chatGpt {
+  margin: 0;
+}
+.chatGptCopilotContainer {
+  width: 97px;
+  height: 124.1px;
+  position: relative;
+  line-height: 31px;
+  font-family: var(--body-text);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.topMarketParent {
+  width: 123px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.emailLinkedinInstagramContainer {
+  position: relative;
+  line-height: 31px;
+  font-family: var(--body-text);
+  flex-shrink: 0;
+}
+.contactParent,
+.footerParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.contactParent {
+  width: 128px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xl);
+}
+.footerParent {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-32xl);
+  min-width: 508px;
+  max-width: 100%;
+}
+.joinOurWorkshop {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.joinOurWorkshopWrapper {
+  width: 311px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+  box-sizing: border-box;
+}
+.frameChild {
+  height: 53px;
+  width: 345px;
+  position: relative;
+  border-radius: var(--br-51xl);
+  background-color: var(--color-midnightblue-200);
+  display: none;
+  max-width: 100%;
+}
+.emailAddress {
+  align-self: stretch;
+  position: relative;
+  line-height: 31px;
+  z-index: 1;
+}
+.emailAddressWrapper {
+  width: 113px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+}
+.submit {
+  position: relative;
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.1em;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--sub-header);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 60px;
+}
+.rectangleParent,
+.submitButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.submitButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs-5) var(--padding-12xl);
+  background-color: var(--color-cornflowerblue-200);
+  border-radius: var(--br-64xl);
+  justify-content: flex-start;
+  z-index: 1;
+}
+.submitButton:hover {
+  background-color: var(--color-cornflowerblue-300);
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-51xl);
+  background-color: var(--color-midnightblue-200);
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-9xs) var(--padding-8xs)
+    var(--padding-4xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-500);
+  font-family: var(--body-text);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.desktop2Inner,
+.frameGroup,
+.frameParent,
+.workshopContainer {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.workshopContainer {
+  width: 345px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  min-width: 345px;
+  font-size: var(--font-size-3xl);
+}
+.desktop2Inner,
+.frameParent {
+  flex-direction: row;
+}
+.frameParent {
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-39xl);
+}
+.desktop2Inner {
+  position: absolute;
+  top: 4033px;
+  left: 0;
+  width: 1175px;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--sub-header);
+}
+@media screen and (max-width: 1125px) {
+  .footerParent,
+  .workshopContainer {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footerParent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .joinOurWorkshop {
+    font-size: var(--body-text-size);
+  }
+  .workshopContainer {
+    min-width: 100%;
+  }
+}
