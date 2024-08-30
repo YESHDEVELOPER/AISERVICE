@@ -1,10 +1,10 @@
 
-  # website
+  # AICHATBOT WEBSITE
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+This website is designed in the knowledge of building up the AICHATBOT Service to the clients. in which the chatbot is trained by the automation.
 
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
+website is prepared by the UI/UX design and made the deployment.
+here is an over view of the figma design.👇
+
+
+![website](https://github.com/user-attachments/assets/dbaad980-8198-474f-9e28-d16c76f6ef41)
